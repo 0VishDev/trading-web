@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SVG Logo</title>
+	<!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <style>
+    	
+
+		input[type="text"] {
+		  width: 100%;
+		  border: 2px solid #aaa;
+		  border-radius: 4px;
+		  margin: 8px 0;
+		  outline: none;
+		  padding: 8px;
+		  box-sizing: border-box;
+		  transition: 0.3s;
+		}
+
+		input[type="text"]:focus {
+		  border-color: dodgerBlue;
+		  box-shadow: 0 0 8px 0 dodgerBlue;
+		}
+
+		.inputWithIcon input[type="text"] {
+		  padding-left: 40px;
+		}
+
+		.inputWithIcon {
+		  position: relative;
+		}
+
+		.inputWithIcon img {
+		  position: absolute;
+		  left: 0;
+		  bottom: 12px;
+		  padding: 9px 8px;
+		  color: #aaa;
+		  transition: 0.3s;
+		}
+
+		.inputWithIcon input[type="text"]:focus + img {
+		  color: dodgerBlue;
+		}
+
+		.inputWithIcon.inputIconBg img {
+		  background-color: #aaa;
+		  color: #fff;
+		  padding: 9px 4px;
+		  border-radius: 4px 0 0 4px;
+		}
+
+		.inputWithIcon.inputIconBg input[type="text"]:focus + img {
+		  color: #fff;
+		  background-color: dodgerBlue;
+		}
+
+    </style>
+
+</head>
+<body>
+
+
+  <br><br>
+  <div class="inputWithIcon">
+  <input type="text" placeholder="Your name">
+  <img src="images/flag.png" class=" fa-lg fa-fw">
+  <!-- <i class="fa fa-user fa-lg fa-fw" aria-hidden="true"></i> -->
+</div>
+
+<div class="inputWithIcon">
+  <input type="text" placeholder="Email">
+  <i class="fa fa-envelope fa-lg fa-fw" aria-hidden="true"></i>
+</div>
+
+
+
+
+<input type="text" placeholder="Age">
+
+	<!-- <div class="container">
+		<div class="row">
+			 <div class="col-sm-12 col-md-3">
+				<embed src="images/per-svg.svg" type="image/svg+xml">
+				<img src="images/per-svg.svg" class="img-fluid">
+			</div> 
+			<div class="col-sm-12 col-md-9">
+				
+			</div>
+		</div>
+	</div> -->
+<!-- <svg width="220px" height="120px">
+     <text font-size="32"  x="145" y="60" fill="green">
+            Hello, World!
+    </text>
+</svg> -->
+
+<!-- JavaScript Bundle with Popper -->
+
+
+<!-- <form class="row">
+	<div class="col-md-5">
+		<input type="text" name="name" class="form-control fa fa-mobile " aria-hidden="true"><i class="" ></i>
+	</div>
+    
+  </form> -->
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>
