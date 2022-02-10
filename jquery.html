@@ -7,16 +7,27 @@
 	<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="">
 </head>
-<body>
-	<h3><p id="loc"></p></h3>
-	<input type="text" id="city" name="city">
+<body onload="mytest()">
+	<h3><p id="city"></p></h3>
+
+  <input type="text" id="city"  >
     <script>
     	$.get('https://ipinfo.io/',function(result)
     	{
-          $('#loc').append(result.loc);
+          $('#city').append(result.city);
+          //document.write(#city);
+          
     	},'json');
     </script>
 
+    
+    <button onclick="mytest()">Try it</button>
+     <script>
+    	 function mytest()
+    	 {
+    	 	$('#city2').append(document.getElementById("city2").value="#city");
+    	 }
+    </script>
 	<!-- <button type="btn" class="btn btn-success" >click</button>
 	<script>
 	$(document).ready(function(){

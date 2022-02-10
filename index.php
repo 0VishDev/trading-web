@@ -2,8 +2,8 @@
 <html lang="en">
 
 <head>
-    <?php  include('include/link.php') ?>
-    
+    <?php include('include/link.php') ?>
+
 </head>
 
 <body class="goto-here">
@@ -12,20 +12,20 @@
     <section id="home-section" class="hero">
         <div class="home-slider owl-carousel">
             <h3 class="fix-text">Slider Text</h3>
-            <div class="slider-item" >
-                <img src="images/slider/slider1.jpg" class="img-fluid" >
-            </div>
-
-            <div class="slider-item" >
-                <img src="images/slider/slider2.jpg" class="img-fluid" >
+            <div class="slider-item">
+                <img src="images/slider/slider1.jpg" class="img-fluid">
             </div>
 
             <div class="slider-item">
-                <img src="images/slider/slider3.jpg" class="img-fluid" >
+                <img src="images/slider/slider2.jpg" class="img-fluid">
             </div>
-         </div>
-    </section>
 
+            <div class="slider-item">
+                <img src="images/slider/slider3.jpg" class="img-fluid">
+            </div>
+        </div>
+    </section>
+    
     <section class="ftco-section">
         <div class="container-fluid">
             <div class="row no-gutters ftco-services">
@@ -85,7 +85,7 @@
                         <div class="col-md-6 order-md-last align-items-stretch d-flex">
                             <div class="category-wrap-2 ftco-animate img align-self-stretch d-flex" style="background-image: url(images/center.jpeg);">
                                 <div class="text text-center">
-                                    
+
                                     <p>Leather Purse</p>
                                     <p><a href="product-enquiry.php" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal1">Enquiry Now</a></p>
                                 </div>
@@ -95,9 +95,9 @@
                             <div class="category-wrap ftco-animate img mb-4 d-flex align-items-end" style="background-image: url(images/about/1.jpg);">
                                 <div class="text px-3 py-1">
                                     <h2 class="mb-0"><a href="#">Leather Purse</a></h2>
-                                    
+
                                 </div>
-                                
+
                             </div>
                             <div class="category-wrap ftco-animate img d-flex align-items-end" style="background-image: url(images/about/2.jpg);">
                                 <div class="text px-3 py-1">
@@ -136,19 +136,19 @@
         </div>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-6 col-lg-3 ftco-animate" >
+                <div class="col-md-6 col-lg-3 ftco-animate">
                     <div class="product">
                         <a href="#" class="img-prod"><img class="img-fluid" src="images/product/1.png" alt="Colorlib Template">
-    						<span class="status">Sell</span>
-    						<div class="overlay"></div>
-    					</a>
+                            <span class="status">Sell</span>
+                            <div class="overlay"></div>
+                        </a>
                         <div class="text py-3 pb-4 px-3 text-center">
                             <h3><a href="#">Leather Purse</a></h3>
                             <div class="d-flex">
-                                
+
                             </div>
-                            
-                                <!-- <a  type="btn" class="btn btn-success btn-sm "><span class='button'>Hover <br>Me</span>
+
+                            <!-- <a  type="btn" class="btn btn-success btn-sm "><span class='button'>Hover <br>Me</span>
 
                                      <div class='popup'>
                                          <div>hiii</div>
@@ -158,21 +158,21 @@
                                           </svg>
                                     </div>
                                 </a> -->
-                                <div class=" button">
-                                <a href="product-enquiry.php"  class="btn  btn-sm"  id="getdata" data-product="Leather Purse" style="background-color:#d76a18;color:#fff;">Enquiry Nowww</a>
+                            <div class=" button">
+                                <a href="product-enquiry.php" class="btn  btn-sm" id="getdata" data-product="Leather Purse" style="background-color:#d76a18;color:#fff;">Enquiry Nowww</a>
                             </div>
-                            
+
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3 ftco-animate">
                     <div class="product">
                         <a href="#" class="img-prod"><img class="img-fluid" src="images/product/2.png" alt="Colorlib Template">
-    						<div class="overlay"></div>
-    					</a>
+                            <div class="overlay"></div>
+                        </a>
                         <div class="text py-3 pb-4 px-3 text-center">
                             <h3><a href="#">Leather Purse</a></h3>
-                            
+
                             <div class=" button">
                                 <button type="btn" class="btn btn-sm" data-toggle="modal" data-target="#exampleModal" id="getdata" data-product="Leather Purse" style="background-color:#d76a18;color:#fff;">Enquiry Now</button>
                             </div>
@@ -183,11 +183,11 @@
                 <div class="col-md-6 col-lg-3 ftco-animate">
                     <div class="product">
                         <a href="#" class="img-prod"><img class="img-fluid" src="images/product/3.png" alt="Colorlib Template">
-	    					<div class="overlay"></div>
-	    				</a>
+                            <div class="overlay"></div>
+                        </a>
                         <div class="text py-3 pb-4 px-3 text-center">
                             <h3><a href="#">Leather Purse</a></h3>
-                            
+
                             <div class=" button">
                                 <button type="btn" class="btn btn-sm" data-toggle="modal" data-target="#exampleModal" id="getdata" data-product="Leather Purse" style="background-color:#d76a18;color:#fff;">Enquiry Now</button>
                             </div>
@@ -198,11 +198,11 @@
                 <div class="col-md-6 col-lg-3 ftco-animate">
                     <div class="product">
                         <a href="#" class="img-prod"><img class="img-fluid" src="images/product/4.png" alt="Colorlib Template">
-    						<div class="overlay"></div>
-    					</a>
+                            <div class="overlay"></div>
+                        </a>
                         <div class="text py-3 pb-4 px-3 text-center">
                             <h3><a href="#">Leather Purse</a></h3>
-                            
+
                             <div class=" button">
                                 <button type="btn" class="btn btn-sm" data-toggle="modal" data-target="#exampleModal" id="getdata" data-product="Leather Purse" style="background-color:#d76a18;color:#fff;">Enquiry Now</button>
                             </div>
@@ -215,12 +215,12 @@
                 <div class="col-md-6 col-lg-3 ftco-animate">
                     <div class="product">
                         <a href="#" class="img-prod"><img class="img-fluid" src="images/product/carry-bag.png" alt="Colorlib Template">
-    						<span class="status">Sell</span>
-    						<div class="overlay"></div>
-    					</a>
+                            <span class="status">Sell</span>
+                            <div class="overlay"></div>
+                        </a>
                         <div class="text py-3 pb-4 px-3 text-center">
                             <h3><a href="#">Leather Purse</a></h3>
-                            
+
                             <div class=" button">
                                 <button type="btn" class="btn btn-sm" data-toggle="modal" data-target="#exampleModal" id="getdata" data-product="Leather Purse" style="background-color:#d76a18;color:#fff;"> Enquiry Now</button>
                             </div>
@@ -231,11 +231,11 @@
                 <div class="col-md-6 col-lg-3 ftco-animate">
                     <div class="product">
                         <a href="#" class="img-prod"><img class="img-fluid" src="images/product/6.png" alt="Colorlib Template">
-    						<div class="overlay"></div>
-    					</a>
+                            <div class="overlay"></div>
+                        </a>
                         <div class="text py-3 pb-4 px-3 text-center">
                             <h3><a href="#">Leather Purse</a></h3>
-                            
+
                             <div class=" button">
                                 <button type="btn" class="btn btn-sm" data-toggle="modal" data-target="#exampleModal" id="getdata" data-product="Leather Purse" style="background-color:#d76a18;color:#fff;">Enquiry Now</button>
                             </div>
@@ -245,11 +245,11 @@
                 <div class="col-md-6 col-lg-3 ftco-animate">
                     <div class="product">
                         <a href="#" class="img-prod"><img class="img-fluid" src="images/product/7.png" alt="Colorlib Template">
-	    					<div class="overlay"></div>
-	    				</a>
+                            <div class="overlay"></div>
+                        </a>
                         <div class="text py-3 pb-4 px-3 text-center">
                             <h3><a href="#">Leather Purse</a></h3>
-                            
+
                             <div class=" button">
                                 <button type="btn" class="btn btn-sm" data-toggle="modal" data-target="#exampleModal" id="getdata" data-product="Leather Purse" style="background-color:#d76a18;color:#fff;">Enquiry Now</button>
                             </div>
@@ -259,11 +259,11 @@
                 <div class="col-md-6 col-lg-3 ftco-animate">
                     <div class="product">
                         <a href="#" class="img-prod"><img class="img-fluid" src="images/product/9.png" alt="Colorlib Template">
-    						<div class="overlay"></div>
-    					</a>
+                            <div class="overlay"></div>
+                        </a>
                         <div class="text py-3 pb-4 px-3 text-center">
                             <h3><a href="#">Leather Purse</a></h3>
-                            
+
                             <div class=" button">
                                 <button type="btn" class="btn btn-sm" data-toggle="modal" data-target="#exampleModal" id="getdata" data-product="Leather Purse" style="background-color:#d76a18;color:#fff;">Enquiry Now</button>
                             </div>
@@ -310,13 +310,13 @@
                             <div class="testimony-wrap p-4 pb-5">
                                 <div class="user-img mb-5" style="background-image: url(images/icon/user.png)">
                                     <span class="quote d-flex align-items-center justify-content-center">
-                                      <i class="icon-quote-left"></i>
+                                        <i class="icon-quote-left"></i>
                                     </span>
                                 </div>
                                 <div class="text text-center">
-                                    
+
                                     <p class="mb-5 pl-4 line text-justify">Lorem Ipsum is simply dummy text of the printing and typesetting industry the printing and typesetting industry the printing and typesetting industry.</p>
-                                    
+
                                 </div>
                             </div>
                         </div>
@@ -324,13 +324,13 @@
                             <div class="testimony-wrap p-4 pb-5">
                                 <div class="user-img mb-5" style="background-image: url(images/icon/user.png)">
                                     <span class="quote d-flex align-items-center justify-content-center">
-                                      <i class="icon-quote-left"></i>
+                                        <i class="icon-quote-left"></i>
                                     </span>
                                 </div>
                                 <div class="text text-center">
-                                    
+
                                     <p class="mb-5 pl-4 line text-justify">Lorem Ipsum is simply dummy text of the printing and typesetting industry the printing and typesetting industry the printing and typesetting industry.</p>
-                                    
+
                                 </div>
                             </div>
                         </div>
@@ -338,12 +338,12 @@
                             <div class="testimony-wrap p-4 pb-5">
                                 <div class="user-img mb-5" style="background-image: url(images/icon/user.png)">
                                     <span class="quote d-flex align-items-center justify-content-center">
-                                      <i class="icon-quote-left"></i>
+                                        <i class="icon-quote-left"></i>
                                     </span>
                                 </div>
                                 <div class="text text-center text-justify">
                                     <p class="mb-5 pl-4 line">Lorem Ipsum is simply dummy text of the printing and typesetting industry the printing and typesetting industry the printing and typesetting industry.</p>
-                                    
+
                                 </div>
                             </div>
                         </div>
@@ -351,16 +351,16 @@
                             <div class="testimony-wrap p-4 pb-5">
                                 <div class="user-img mb-5" style="background-image: url(images/icon/user.png)">
                                     <span class="quote d-flex align-items-center justify-content-center">
-                                      <i class="icon-quote-left"></i>
+                                        <i class="icon-quote-left"></i>
                                     </span>
                                 </div>
                                 <div class="text text-center text-justify">
                                     <p class="mb-5 pl-4 line">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                                    
+
                                 </div>
                             </div>
                         </div>
-                       
+
                     </div>
                 </div>
             </div>
@@ -369,14 +369,14 @@
 
     <hr>
 
-    
-<h4 class="text-center user_register line-1 anim-typewriter"> </h4>
+
+    <h4 class="text-center user_register line-1 anim-typewriter"> </h4>
     <?php include('include/footer.php') ?>
-    <?php  include('include/model.php') ?>
+    <?php include('include/model.php') ?>
     <?php include('include/product-enquiry.php') ?>
 
 
-    
+
 </body>
 
 </html>

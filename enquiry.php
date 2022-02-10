@@ -6,7 +6,6 @@
 	$tel = $_POST['number'];
     $services = $_POST['message'];
 	
-
 	$email_from = 'vishal01singh03@gmail.com';
 	$email_subject = "Business Enquiry From Infobiz World Trade";
 	$email_body = "Name: $name.\n".

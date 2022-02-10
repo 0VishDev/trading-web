@@ -2,6 +2,7 @@
     
     $name = $_POST['name'];
     $visitor_email = $_POST['email'];
+    
 	$tel = $_POST['number'];
     $message = $_POST['message'];
 	

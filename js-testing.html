@@ -5,18 +5,26 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Js Testing</title>
 	<link rel="stylesheet" href="">
-</head>
-<body>
-
 	<script>
-		
+		function displayDate()
+		{
+          document.getElementById("showDate").innerHTML = Date();
+		}
 	</script>
+</head>
+<body onload="displayDate()">
 
-	<script>
-		var a = "Vishal kumar singh ku kuf";
+<button type="button" onclick="displayDate()">Show</button>
+	<p id="showDate"></p>
+<form>
+	<input type="text" class="form-control" value="showDate">
+</form>
+ 
+	 <!-- <script>
+		var a = "Vishal kumar singh x";
         var b = a.includes("kkumar");
         document.write(b);
-	</script>
+	</script> -->
 	<script>
 		/*var ary = new Array(3);
 
@@ -68,5 +76,17 @@
 	document.write(a);
 	
 	</script> -->
+
+	<script>
+		var a=["Dev","Web","Java","Laravel","We","She"];
+        car c = "Vishal Kumar Singh";
+		var b=c.indexOf("Kumar");
+		document.write(b);
+	</script>
+
+
+	
+
+	
 </body>
 </html>
